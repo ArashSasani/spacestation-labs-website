@@ -1,0 +1,678 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <title>Spacestation Labs</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/foundation.min.css" />
+    <link href="/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/css/jquery.maximage.min.css" rel="stylesheet" />
+    <link href="/css/jquery.fullPage.css" rel="stylesheet" />
+    <link href="/css/outdatedbrowser.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <script src="/js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="row stripe clearfix">
+        <div id="logo" class="right">
+          <a href="/"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="off-canvas-wrap" data-offcanvas>
+          <div class="inner-wrap">
+            <nav class="tab-bar">
+              <section class="left-small">
+                <a class="left-off-canvas-toggle menu-icon" href="#"
+                  ><span></span
+                ></a>
+              </section>
+            </nav>
+            <aside class="left-off-canvas-menu">
+              <ul class="off-canvas-list">
+                <li class="text-center"><label>Sections</label></li>
+                <li class="text-center"><a href="#1">Main</a></li>
+                <li class="text-center"><a href="#2">Projects</a></li>
+                <li class="text-center"><a href="#3">Services</a></li>
+                <li class="text-center"><a href="#4">Blog</a></li>
+                <li class="text-center"><a href="#5">Start a project</a></li>
+                <li class="text-center"><a href="#6">Contact</a></li>
+              </ul>
+            </aside>
+            <section class="main-section"></section>
+            <a class="exit-off-canvas"></a>
+          </div>
+        </div>
+        <nav role="primary">
+          <ul id="main-menu" class="left">
+            <li class="left"><a href="#6">Contact</a></li>
+            <li class="left"><a href="#5">Start a project</a></li>
+            <li class="left"><a href="#4">Blog</a></li>
+            <li class="left"><a href="#3">Services</a></li>
+            <li class="left"><a href="#2">Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="loader-screen mainbg">
+      <div class="loader-cont">
+        <div id="container">
+          <div class="item"></div>
+        </div>
+        <strong class="message blue">Loading...<br />Please wait</strong>
+        <noscript>
+          <div class="global-site-notice noscript">
+            <p>
+              <strong>Please activate Javascript in your browser</strong><br />
+            </p>
+          </div>
+        </noscript>
+      </div>
+    </div>
+    <div id="fullpage" class="row mainpage">
+      <!--slider video-->
+      <section class="screen section" id="screen1">
+        <video
+          id="video_bg"
+          preload="auto"
+          width="1920"
+          height="1080"
+          autoplay="autoplay"
+          loop
+          muted
+        ></video>
+        <div class="overlay"></div>
+        <div id="main_title">
+          <img src="images/main-title.png" alt="" class="txt-pic" />
+          <a href="#2" class="btn btn-white to-second">
+            Let's start<br />
+            <img src="images/arrow1.png" alt="arrow" class="arr retina" />
+          </a>
+        </div>
+      </section>
+      <!--projects-->
+      <section
+        id="mainpage-project-container"
+        class="row text-center section mainbg"
+      >
+        <div
+          id="project-arrow-left"
+          class="small-12 medium-1 large-1 columns mainpage-project-arrow"
+        >
+          <span class="fa fa-arrow-circle-left fa-3x blue"></span>
+        </div>
+        <div class="small-12 medium-10 large-10 columns">
+          <ul class="slides">
+            <li>
+              <div class="row">
+                <div
+                  class="small-12 medium-8 large-8 columns text-center mainpage-project"
+                  index="1"
+                  style="display: block"
+                >
+                  <img
+                    src="images/pages/main/project1.png"
+                    class="mainpage-project-img"
+                    alt="Alternate Text"
+                  />
+                </div>
+                <div
+                  class="small-12 medium-4 large-4 columns mainpage-project-links"
+                  index="1"
+                  style="display: block"
+                >
+                  <h3 class="txt-shadow">Project 1</h3>
+                  <br />
+                  <a href="#" class="button expand btn-case-study bg-red"
+                    >Details</a
+                  >
+                  <br />
+                  <a href="#" class="button expand">All projects</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div
+                  class="small-12 medium-8 large-8 columns text-center mainpage-project"
+                  index="2"
+                >
+                  <img
+                    src="images/pages/main/project2.png"
+                    class="mainpage-project-img"
+                    alt="Alternate Text"
+                  />
+                </div>
+                <div
+                  class="small-12 medium-4 large-4 columns mainpage-project-links"
+                  index="2"
+                >
+                  <h3 class="txt-shadow">Project 2</h3>
+                  <br />
+                  <a href="#" class="button expand btn-case-study bg-red"
+                    >Details</a
+                  >
+                  <br />
+                  <a href="#" class="button expand">All projects</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div
+                  class="small-12 medium-8 large-8 columns text-center mainpage-project"
+                  index="3"
+                >
+                  <img
+                    src="images/pages/main/project3.png"
+                    class="mainpage-project-img"
+                    alt="Alternate Text"
+                  />
+                </div>
+                <div
+                  class="small-12 medium-4 large-4 columns mainpage-project-links"
+                  index="3"
+                >
+                  <h3 class="txt-shadow">Project 3</h3>
+                  <br />
+                  <a href="#" class="button expand btn-case-study bg-red"
+                    >Details</a
+                  >
+                  <br />
+                  <a href="#" class="button expand">All projects</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div
+                  class="small-12 medium-8 large-8 columns text-center mainpage-project"
+                  index="4"
+                >
+                  <img
+                    src="images/pages/main/project4.png"
+                    class="mainpage-project-img"
+                    alt="Alternate Text"
+                  />
+                </div>
+                <div
+                  class="small-12 medium-4 large-4 columns mainpage-project-links"
+                  index="4"
+                >
+                  <h3 class="txt-shadow">Project 4</h3>
+                  <br />
+                  <a href="#" class="button expand btn-case-study bg-red"
+                    >Details</a
+                  >
+                  <br />
+                  <a href="#" class="button expand">All projects</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div
+                  class="small-12 medium-8 large-8 columns text-center mainpage-project"
+                  index="5"
+                >
+                  <img
+                    src="images/pages/main/project5.png"
+                    class="mainpage-project-img"
+                    alt="Alternate Text"
+                  />
+                </div>
+                <div
+                  class="small-12 medium-4 large-4 columns mainpage-project-links"
+                  index="5"
+                >
+                  <h3 class="txt-shadow">Project 5</h3>
+                  <br />
+                  <a href="#" class="button expand btn-case-study bg-red"
+                    >Details</a
+                  >
+                  <br />
+                  <a href="#" class="button expand">All projects</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div
+                  class="small-12 medium-8 large-8 columns text-center mainpage-project"
+                  index="6"
+                >
+                  <img
+                    src="images/pages/main/project6.png"
+                    class="mainpage-project-img"
+                    alt="Alternate Text"
+                  />
+                </div>
+                <div
+                  class="small-12 medium-4 large-4 columns mainpage-project-links"
+                  index="6"
+                >
+                  <h3 class="txt-shadow">Project 6</h3>
+                  <br />
+                  <a href="#" class="button expand btn-case-study bg-red"
+                    >Details</a
+                  >
+                  <br />
+                  <a href="#" class="button expand">All projects</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div
+                  class="small-12 medium-8 large-8 columns text-center mainpage-project"
+                  index="7"
+                >
+                  <img
+                    src="images/pages/main/project7.png"
+                    class="mainpage-project-img"
+                    alt="Alternate Text"
+                  />
+                </div>
+                <div
+                  class="small-12 medium-4 large-4 columns mainpage-project-links"
+                  index="7"
+                >
+                  <h3 class="txt-shadow">Project 7</h3>
+                  <br />
+                  <a href="#" class="button expand btn-case-study bg-red"
+                    >Details</a
+                  >
+                  <br />
+                  <a href="#" class="button expand">All projects</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div
+          id="project-arrow-right"
+          class="small-12 medium-1 large-1 columns mainpage-project-arrow"
+        >
+          <span class="fa fa-arrow-circle-right fa-3x blue"></span>
+        </div>
+      </section>
+      <!--services-->
+      <section id="main-services" class="row section">
+        <div class="service" id="strategy">
+          <div class="bg gray"></div>
+          <a class="cl-more">more</a>
+          <div class="title-cont">
+            <div class="title">
+              <div class="txt">
+                <small>develop</small>
+                <strong>your</strong>
+                <strong class="bg-blue">internet strategies</strong>
+                <span>using branding</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="service" id="ux">
+          <div class="bg gray"></div>
+          <a class="cl-more">more</a>
+          <div class="title-cont">
+            <div class="title">
+              <div class="txt">
+                <strong class="bg-blue">graphic</strong>
+                <strong>UI</strong>
+                <span>UX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="service" id="apps">
+          <div class="bg gray"></div>
+          <a class="cl-more">more</a>
+          <div class="title-cont">
+            <div class="title">
+              <div class="txt">
+                <small>develop</small>
+                <strong>software</strong>
+                <strong class="bg-blue">web & mobile</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="service" id="compagin">
+          <div class="bg gray"></div>
+          <a class="cl-more">more</a>
+          <div class="title-cont">
+            <div class="title">
+              <div class="txt">
+                <small>design</small>
+                <strong class="bg-blue">modern websites</strong>
+                <span>response</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--blog-->
+      <section id="main-blog" class="section mainbg dashed">
+        <h2 class="text-center txt-shadow">Blog</h2>
+        <div id="main-blog-container">
+          <ul id="tiles">
+            <li class="blog-inner">
+              <img src="images/image_1.jpg" width="200" height="283" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_2.jpg" width="200" height="300" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_3.jpg" width="200" height="252" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_4.jpg" width="200" height="158" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_5.jpg" width="200" height="300" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_6.jpg" width="200" height="297" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_7.jpg" width="200" height="200" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_8.jpg" width="200" height="200" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_9.jpg" width="200" height="398" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_10.jpg" width="200" height="267" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_1.jpg" width="200" height="283" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+            <li class="blog-inner">
+              <img src="images/image_2.jpg" width="200" height="300" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--start project-->
+      <section id="start-project" class="row text-center section mainbg dashed">
+        <h3 class="blue title-bold">Let's talk about your project</h3>
+        <br />
+        <a href="/startproject/" id="start-project-link" class="button"
+          >Contact us</a
+        >
+      </section>
+      <footer class="section">
+        <div id="contacts-container" class="row rtl">
+          <div class="large-12 columns">
+            <div id="contacts" class="row">
+              <div id="address" class="small-12 medium-6 large-6 columns">
+                <h3>Contact us</h3>
+                <address>Toronto, Canada</address>
+                <span class="tel">Phone: +1-818-00000</span>
+                <h4>Follow us on social network</h4>
+                <ul id="top" class="row footer-list">
+                  <li class="small-3 medium-3 large-3">
+                    <a href="#"
+                      ><span class="fa fa-facebook-square fa-2x"></span
+                    ></a>
+                  </li>
+                  <li class="small-3 medium-3 large-3">
+                    <a href="#"
+                      ><span class="fa fa-linkedin-square fa-2x"></span
+                    ></a>
+                  </li>
+                  <li class="small-3 medium-3 large-3">
+                    <a href="#"><span class="fa fa-instagram fa-2x"></span></a>
+                  </li>
+                  <li class="small-3 medium-3 large-3">
+                    <a href="#"
+                      ><span class="fa fa-google-plus-square fa-2x"></span
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                id="footer-message"
+                class="small-12 medium-6 large-6 columns"
+              >
+                <h3>Want to work with us, let's talk</h3>
+                <form data-abide>
+                  <div class="row">
+                    <div class="large-12 columns">
+                      <label>
+                        Name
+                        <input
+                          type="text"
+                          placeholder="Name is required"
+                          required
+                        />
+                      </label>
+                      <small class="error">Name is required</small>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="large-12 columns">
+                      <label>
+                        Phone
+                        <input type="text" />
+                      </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="large-12 columns">
+                      <label>
+                        E-mail
+                        <input
+                          type="text"
+                          placeholder="Email is required"
+                          pattern="email"
+                        />
+                      </label>
+                      <small class="error">Email is incorrect</small>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="large-12 columns">
+                      <label>
+                        Message
+                        <textarea
+                          class="contact-message"
+                          placeholder="Message"
+                          required
+                        ></textarea>
+                      </label>
+                      <small class="error">Message is required</small>
+                    </div>
+                  </div>
+                  <!-- <div class="row">
+                    <div class="large-12 columns text-left">
+                      <a href="#">
+                        <span
+                          data-tooltip
+                          aria-haspopup="true"
+                          data-options="disable_for_touch:true"
+                          class="has-tip"
+                          title="Some let's do it together slogan here"
+                          >Start project form</span
+                        >
+                      </a>
+                    </div>
+                  </div> -->
+                  <div class="row">
+                    <a
+                      role="button"
+                      aria-label="submit form"
+                      href="#"
+                      class="button left"
+                      >Submit</a
+                    >
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- <div id="map" class="large-12 columns">
+            <div id="map_canvas"></div>
+          </div> -->
+        </div>
+        <div id="to-top-container" class="row bg-red">
+          <div class="large-12 columns">
+            <a href="#" class="scrollToTop"></a>
+          </div>
+        </div>
+        <div id="footer-info-container" class="row mainbg">
+          <div class="small-12 medium-6 large-6 columns">
+            <div class="row">
+              <ul id="legal" class="footer-list">
+                <li class="small-4 medium-4 large-4 columns">
+                  <a href="#">Legal</a>
+                </li>
+                <li class="small-4 medium-4 large-4 columns">
+                  <a href="#">About</a>
+                </li>
+                <li class="small-4 medium-4 large-4 columns">
+                  <a href="#">Sitemap</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="social" class="small-12 medium-6 large-6 columns">
+            <div class="row">
+              <ul id="bottom" class="footer-list">
+                <li class="small-3 medium-3 large-3 columns">
+                  <a href="#"
+                    ><span class="fa fa-facebook-square fa-2x"></span
+                  ></a>
+                </li>
+                <li class="small-3 medium-3 large-3 columns">
+                  <a href="#"
+                    ><span class="fa fa-linkedin-square fa-2x"></span>
+                  </a>
+                </li>
+                <li class="small-3 medium-3 large-3 columns">
+                  <a href="#"><span class="fa fa-instagram fa-2x"></span></a>
+                </li>
+                <li class="small-3 medium-3 large-3 columns">
+                  <a href="#"
+                    ><span class="fa fa-google-plus-square fa-2x"></span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div id="outdated">
+      <h6>Your browser is old!</h6>
+      <p>
+        For correct experience, please update your browser
+        <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/"
+          >Let's update the browser
+        </a>
+      </p>
+      <p class="last">
+        <a href="#" id="btnCloseUpdateBrowser" title="close">&times;</a>
+      </p>
+    </div>
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="/js/jquery.easings.min.js"></script>
+    <script src="/js/jquery.slimscroll.min.js"></script>
+    <script src="/js/jquery.fullPage.min.js"></script>
+    <script src="/js/jquery.maximage.min.js"></script>
+    <script src="/js/jquery.imagesloaded.js"></script>
+    <script src="/js/jquery.wookmark.js"></script>
+    <script src="/js/outdatedbrowser.min.js"></script>
+    <script src="/js/home.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

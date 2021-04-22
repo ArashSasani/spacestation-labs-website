@@ -1,0 +1,452 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <title>آژانس خلاقیت دیجیتال سکو</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/foundation.min.css" />
+    <link href="/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/css/outdatedbrowser.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <script src="/js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="row stripe clearfix">
+        <div id="logo" class="right">
+          <a href="/"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="off-canvas-wrap" data-offcanvas>
+          <div class="inner-wrap">
+            <nav class="tab-bar">
+              <section class="left-small">
+                <a class="left-off-canvas-toggle menu-icon" href="#"
+                  ><span></span
+                ></a>
+              </section>
+            </nav>
+            <aside class="left-off-canvas-menu">
+              <ul class="off-canvas-list">
+                <li class="text-center"><label>Pages</label></li>
+                <li class="text-center"><a href="/">Home</a></li>
+              </ul>
+            </aside>
+            <section class="main-section"></section>
+            <a class="exit-off-canvas"></a>
+          </div>
+        </div>
+        <nav role="primary">
+          <ul id="main-menu" class="left">
+            <li class="left"><a href="/">Home</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="loader-screen mainbg">
+      <div class="loader-cont">
+        <div id="container">
+          <div class="item"></div>
+        </div>
+        <strong class="message blue">Loading...<br />Please wait</strong>
+        <noscript>
+          <div class="global-site-notice noscript">
+            <p>
+              <strong>Please activate Javascript in your browser</strong><br />
+            </p>
+          </div>
+        </noscript>
+      </div>
+    </div>
+    <div id="start-project-section" class="row mainpage mainbg">
+      <!--Start Project-->
+      <section class="rtl">
+        <h1>Work request</h1>
+        <h4>Work with us</h4>
+        <form data-abide="ajax">
+          <div class="row collapse">
+            <div class="small-12 medium-6 large-6 columns">
+              <div class="row collapse">
+                <div class="small-2 large-2 columns">
+                  <span class="button secondary prefix"
+                    ><i class="fa fa-user"></i
+                  ></span>
+                </div>
+                <div class="small-10 large-10 columns">
+                  <input type="text" placeholder="Name" required />
+                  <small class="error">Name is required</small>
+                </div>
+              </div>
+            </div>
+            <div class="small-12 medium-6 large-6 columns">
+              <div class="row collapse">
+                <div class="small-2 large-2 columns">
+                  <span class="button secondary prefix"
+                    ><i class="fa fa-suitcase"></i
+                  ></span>
+                </div>
+                <div class="small-10 large-10 columns">
+                  <input type="text" placeholder="Organization name" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="small-12 medium-6 large-6 columns">
+              <div class="row collapse">
+                <div class="small-2 large-2 columns">
+                  <span class="button secondary prefix"
+                    ><i class="fa fa-envelope"></i
+                  ></span>
+                </div>
+                <div class="small-10 large-10 columns">
+                  <input
+                    type="email"
+                    placeholder="E-mail"
+                    required
+                    pattern="email"
+                  />
+                  <small class="error">Email is incorrect</small>
+                </div>
+              </div>
+            </div>
+            <div class="small-12 medium-6 large-6 columns">
+              <div class="row collapse">
+                <div class="small-2 large-2 columns">
+                  <span class="button secondary prefix"
+                    ><i class="fa fa-phone"></i
+                  ></span>
+                </div>
+                <div class="small-10 large-10 columns">
+                  <input type="text" placeholder="Phone" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="small-2 medium-1 large-1 columns">
+              <span class="button secondary prefix">http://</span>
+            </div>
+            <div class="small-10 medium-11 large-11 columns">
+              <input
+                type="url"
+                placeholder="Your website link here"
+                pattern="domain"
+              />
+              <small class="error">Url is incorrect</small>
+            </div>
+          </div>
+          <div class="row collapse" data-equalizer>
+            <div class="small-2 medium-1 large-1 columns" data-equalizer-watch>
+              <span class="button secondary prefix textarea-prefix"
+                ><i class="fa fa-gears"></i
+              ></span>
+            </div>
+            <div
+              class="small-10 medium-11 large-11 columns"
+              data-equalizer-watch
+            >
+              <textarea
+                rows="3"
+                placeholder="What services do you need?"
+                required
+              ></textarea>
+              <small class="error">Please fill the input</small>
+            </div>
+          </div>
+          <div class="row collapse" style="margin-top: 35px" data-equalizer>
+            <div class="small-2 medium-1 large-1 columns" data-equalizer-watch>
+              <span class="button secondary prefix textarea-prefix"
+                ><i class="fa fa-pencil"></i
+              ></span>
+            </div>
+            <div
+              class="small-10 medium-11 large-11 columns"
+              data-equalizer-watch
+            >
+              <textarea
+                rows="3"
+                placeholder="Describe your project or idea"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-12 large-6 columns">
+              <label class="space">How much is your budget?</label>
+              <select>
+                <option value="1">less than 20k$</option>
+                <option value="2">less than 50k$</option>
+                <option value="3">less than 70k$</option>
+                <option value="4">There is no limitation</option>
+              </select>
+            </div>
+            <div class="small-12 medium-12 large-6 columns">
+              <label class="space">How's your timeline for the project?</label>
+              <select>
+                <option value="1">2 weeks</option>
+                <option value="2">1 month</option>
+                <option value="3">3 months</option>
+                <option value="4">6 month</option>
+                <option value="5">1 year</option>
+                <option value="6">There is no limitation</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <label class="no-space">Upload attachment</label>
+              <input type="file" class="custom-file-input icon-upload" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <label class="no-space"
+                >Do you agree with legal section of the website?</label
+              >
+              <div class="switch">
+                <input id="agreement-checkbox" type="checkbox" />
+                <label for="agreement-checkbox" style="margin-top: 0px"></label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <button class="no-space" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <!--Contacts-->
+      <footer class="section bg-blue">
+        <div id="contacts-container" class="row rtl">
+          <div class="large-12 columns">
+            <div id="contacts" class="row">
+              <div id="address" class="small-12 medium-6 large-6 columns">
+                <h3>Contact us</h3>
+                <address>Toronto, Canada</address>
+                <span class="tel">Phone: +1-818-00000</span>
+                <h4>Follow us on social network</h4>
+                <ul id="top" class="row footer-list">
+                  <li class="small-3 medium-3 large-3">
+                    <a href="#"
+                      ><span class="fa fa-facebook-square fa-2x"></span
+                    ></a>
+                  </li>
+                  <li class="small-3 medium-3 large-3">
+                    <a href="#"
+                      ><span class="fa fa-linkedin-square fa-2x"></span
+                    ></a>
+                  </li>
+                  <li class="small-3 medium-3 large-3">
+                    <a href="#"><span class="fa fa-instagram fa-2x"></span></a>
+                  </li>
+                  <li class="small-3 medium-3 large-3">
+                    <a href="#"
+                      ><span class="fa fa-google-plus-square fa-2x"></span
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                id="footer-message"
+                class="small-12 medium-6 large-6 columns"
+              >
+                <h3>Want to work with us, let's talk</h3>
+                <form data-abide>
+                  <div class="row">
+                    <div class="large-12 columns">
+                      <label>
+                        Name
+                        <input
+                          type="text"
+                          placeholder="Name is required"
+                          required
+                        />
+                      </label>
+                      <small class="error">Name is required</small>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="large-12 columns">
+                      <label>
+                        Phone
+                        <input type="text" />
+                      </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="large-12 columns">
+                      <label>
+                        E-mail
+                        <input
+                          type="text"
+                          placeholder="Email is required"
+                          pattern="email"
+                        />
+                      </label>
+                      <small class="error">Email is incorrect</small>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="large-12 columns">
+                      <label>
+                        Message
+                        <textarea
+                          class="contact-message"
+                          placeholder="Message"
+                          required
+                        ></textarea>
+                      </label>
+                      <small class="error">Message is required</small>
+                    </div>
+                  </div>
+                  <!-- <div class="row">
+                      <div class="large-12 columns text-left">
+                        <a href="#">
+                          <span
+                            data-tooltip
+                            aria-haspopup="true"
+                            data-options="disable_for_touch:true"
+                            class="has-tip"
+                            title="Some let's do it together slogan here"
+                            >Start project form</span
+                          >
+                        </a>
+                      </div>
+                    </div> -->
+                  <div class="row">
+                    <a
+                      role="button"
+                      aria-label="submit form"
+                      href="#"
+                      class="button left"
+                      >Submit</a
+                    >
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- <div id="map" class="large-12 columns">
+              <div id="map_canvas"></div>
+            </div> -->
+        </div>
+        <div id="to-top-container" class="row bg-red">
+          <div class="large-12 columns">
+            <a href="#" class="scrollToTop"></a>
+          </div>
+        </div>
+        <div id="footer-info-container" class="row mainbg">
+          <div class="small-12 medium-6 large-6 columns">
+            <div class="row">
+              <ul id="legal" class="footer-list">
+                <li class="small-4 medium-4 large-4 columns">
+                  <a href="#">Legal</a>
+                </li>
+                <li class="small-4 medium-4 large-4 columns">
+                  <a href="#">About</a>
+                </li>
+                <li class="small-4 medium-4 large-4 columns">
+                  <a href="#">Sitemap</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="social" class="small-12 medium-6 large-6 columns">
+            <div class="row">
+              <ul id="bottom" class="footer-list">
+                <li class="small-3 medium-3 large-3 columns">
+                  <a href="#"
+                    ><span class="fa fa-facebook-square fa-2x"></span
+                  ></a>
+                </li>
+                <li class="small-3 medium-3 large-3 columns">
+                  <a href="#"
+                    ><span class="fa fa-linkedin-square fa-2x"></span
+                  ></a>
+                </li>
+                <li class="small-3 medium-3 large-3 columns">
+                  <a href="#"><span class="fa fa-instagram fa-2x"></span></a>
+                </li>
+                <li class="small-3 medium-3 large-3 columns">
+                  <a href="#"
+                    ><span class="fa fa-google-plus-square fa-2x"></span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div id="Modal" class="reveal-modal text-center" data-reveal>
+      <h3>درخواست شما با موفقیت ثبت گردید</h3>
+      <p class="lead">با شما تماس خواهیم گرفت</p>
+    </div>
+    <div id="outdated">
+      <h6>Your browser is old!</h6>
+      <p>
+        For correct experience, please update your browser
+        <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/"
+          >Let's update the browser
+        </a>
+      </p>
+      <p class="last">
+        <a href="#" id="btnCloseUpdateBrowser" title="close">&times;</a>
+      </p>
+    </div>
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/outdatedbrowser.min.js"></script>
+    <script>
+      $(document).foundation();
+
+      function mobileMenuResize() {
+        if ($(window).width() <= 768) {
+          var menuh = $("ul.off-canvas-list").height();
+          $(".inner-wrap").height(menuh);
+        }
+      }
+
+      $(function () {
+        outdatedBrowser({
+          bgColor: "#d41217",
+          color: "#ffffff",
+          lowerThan: "transform",
+          languagePath: "",
+        });
+        $(".loader-screen .message").css("display", "block");
+        mobileMenuResize();
+
+        $("button[type='submit']").click(function () {
+          $("#start-project-section > section form").on(
+            "valid.fndtn.abide",
+            function () {
+              //ajax
+              //after compeletion
+              $("#Modal").foundation("reveal", "open");
+            }
+          );
+        });
+
+        $(".scrollToTop").click(function () {
+          $("html, body").scrollTop(function () {
+            $(this).animate({ scrollTop: "0px" }, "slow");
+          });
+        });
+      });
+
+      $(window).resize(function () {
+        mobileMenuResize();
+      });
+
+      $(window).load(function () {
+        $(".loader-screen").delay(500).fadeOut(500);
+      });
+    </script>
+  </body>
+</html>
