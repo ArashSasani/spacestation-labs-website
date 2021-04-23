@@ -517,8 +517,8 @@ ul#main-menu > li > a:hover:after {
 
 .loader-screen .message {
   display: none;
-  font-size: 22px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: 16px;
 }
 
 @-webkit-keyframes fade {
@@ -646,6 +646,12 @@ ul#main-menu > li > a:hover:after {
   max-width: 380px;
   width: 100%;
   min-width: 210px;
+}
+
+.mainpage #main_title .headings h1,
+.mainpage #main_title .headings h2,
+.mainpage #main_title .headings h3 {
+  font-family: "Rubik Mono One", sans-serif;
 }
 
 .mainpage #main_title .btn-white {
@@ -943,7 +949,7 @@ ul.slides li {
 
 #main-services #strategy .bg {
   background-image: url("../images/pages/main/main-service1.jpg");
-  background-position: left center;
+  background-position: right center;
 }
 
 #main-services #ux .bg {
@@ -953,12 +959,12 @@ ul.slides li {
 
 #main-services #apps .bg {
   background-image: url("../images/pages/main/main-service3.jpg");
-  background-position: right center;
+  background-position: left center;
 }
 
 #main-services #compagin .bg {
-  background-image: url("../images/pages/main/main-service1.jpg");
-  background-position: right center;
+  background-image: url("../images/pages/main/main-service4.jpg");
+  background-position: left center;
 }
 
 #main-services .service .gray,
@@ -1260,6 +1266,10 @@ ul.footer-list#top > li > a > span {
 }
 
 @media only screen and (min-width: 1025px) {
+  .mainpage #main_title .headings h1 {
+    font-size: 3.75rem;
+  }
+
   ul.footer-list#top > li > a > span:hover {
     -webkit-animation: bounce 0.3s ease-in-out;
     -moz-animation: bounce 0.3s ease-in-out;
