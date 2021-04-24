@@ -368,6 +368,10 @@ ul#main-menu > li > a:hover:after {
   width: 100%;
 }
 
+ul.off-canvas-list {
+  font-size: 14px;
+}
+
 #screen2 {
   background-size: cover;
 }
@@ -618,12 +622,12 @@ ul#main-menu > li > a:hover:after {
 }
 
 /*** Main Page ***/
-/* .mainpage #screen1 {
-  background: url("../images/bg.jpg") center center
+.mainpage #screen1 {
+  background: url("../images/pages/main/main-service1.jpg") center center
     no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-} */
+}
 
 .mainpage #video_bg {
   position: absolute;
@@ -1249,6 +1253,10 @@ ul.footer-list > li {
 
 ul.footer-list > li > a {
   font-size: 20px;
+}
+
+ul.footer-list > li.footer-links > a {
+  font-size: 16px;
 }
 
 ul.footer-list > li > a,
