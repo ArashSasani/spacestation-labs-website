@@ -1441,6 +1441,11 @@ ul.footer-list#top > li > a > span {
   float: left;
   direction: ltr;
   text-align: left;
+  padding-left: 0;
+}
+
+#start-project-section > section form .row .columns:last-child {
+  padding-right: 0;
 }
 
 #start-project-section > section form .row .columns label {
